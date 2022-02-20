@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(39deg, rgba(1,11,84,1) 9%, rgba(21,0,183,1) 42%, rgba(0,224,255,1) 75%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: cursive;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.paralax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    margin-top: 0pt;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: bisque;
+    width: 100%;
+}
+.links{
+    float: left;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: Moon Dance;
+    font-size: 20px;
+    font-style: oblique;
+    color: black;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+p{
+   font-family: Akaya Telivigala;
+}
+a{
+    text-decoration: none;
+}
+#contacts{
+    background-color: lightgrey;
+
+}
+.contact_1{
+    display: inline;
+}
+#contacts iframe{
+    width: 100%;
+}
